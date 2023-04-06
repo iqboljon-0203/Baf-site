@@ -1,0 +1,106 @@
+.info-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    color: #5B8689;
+    min-height: 24px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+}
+.info .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.color-list{
+    display: flex;
+    align-items: center;
+}
+.color-item span{
+    width: 15px;
+    height: 15px;
+    padding: 3px 10px;
+    background: #F38DB8;
+    border-radius: 5px;
+}
+.color-item:nth-child(2) span{
+    background: #CCD59D;
+}
+.color-item:nth-child(3) span{
+    background: #FFB83A;
+}
+.color-item{
+    margin: 10px 5px;
+    border: 1px solid #5a969c;
+    padding: 3px 2px;
+    border-radius: 5px;
+    
+}
+.color-item:nth-child(1){
+    margin-left: 0;
+}
+
+.info-price{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+min-height: 24px;
+text-overflow: ellipsis;
+white-space: wrap;
+overflow: hidden;
+/* background-color: red; */
+
+color: #5B8689;
+
+}
+.info-flex{
+    display: flex;
+    align-items: center;
+}
+.info-btn{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 22px;
+/* identical to box height, or 220% */
+width: 125px;
+height: 28px;
+border: none;
+color: #FFFFFF;
+margin-left: 25px;
+background: #5B8A8D;
+border-radius: 10px;
+}
+.info-text{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+ 
+
+
+color: #979797;
+width: 379px;
+max-height: 60px;
+
+text-overflow: ellipsis;
+white-space: wrap;
+overflow: hidden;
+/* background-color: red; */
+margin: 20px 0;
+}
+.info{
+    padding: 30px 0;
+}
+.Rating-iconButton-2:nth-child(1){
+    padding-left: 0;
+}
+
